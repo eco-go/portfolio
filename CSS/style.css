@@ -10,3 +10,7 @@ p.serif{
 h1.serif{
     font-family: "Courier New", Courier, monospace;
 }
+iframe{
+  display:block;
+  margin:0 auto;
+}
