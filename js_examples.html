@@ -18,33 +18,22 @@ My Javascript
   
   <br><img id='myImage' src="harryPotters.jpg" style="width:800px">
   
-  <h3><br>JavaScript</h3>
- <p id="demo"></p>
+<h3><br>JavaScript</h3>
 
+  <button onclick="document.getElementById('demo').innerHTML = Math.random()">Click for a random number</button>
 <script>
 document.getElementById("demo").innerHTML = Math.random();
 </script>
- 
-<button onclick="document.getElementById('demo').innerHTML = Math.random()">Click for a random number</button>
-  
-  <p id="demo"></p>
+<p id="demo"></p>
 
+ <p><br><br>Want some pie?</p>
+<button onclick="myFunction()">Click here</button>
+<p id="pi"></p>
 <script>
-document.getElementById("demo").innerHTML = Math.random();
+function myFunction() {
+    document.getElementById("pi").innerHTML = Math.PI;
+}
 </script>
- 
-<button onclick="document.getElementById('demo').innerHTML = Math.random()">Click for a random number</button>
-  <p id="demo"></p>
-
-<script>
-document.getElementById("demo").innerHTML = Math.random();
-</script>
- 
-<button onclick="document.getElementById('demo').innerHTML = Math.random()">Click for a random number</button>
-  
- 
-  
-  
   
 </body>
 
